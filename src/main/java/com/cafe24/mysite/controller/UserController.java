@@ -77,6 +77,13 @@ public class UserController {
 		authUser.setName(userVo.getName());
 		return "redirect:/user/update?result=success";
 	}
+	
+	@RequestMapping(value="/auth", method=RequestMethod.POST)
+	public void auth() {
+	}
+	@RequestMapping(value="/logout", method=RequestMethod.GET)
+	public void logout() {
+	}
 
 // ------------------------------- [인터셉터로 넘긴코드들]  ------------------------------
 //	@RequestMapping(value = "/login", method = RequestMethod.POST)
