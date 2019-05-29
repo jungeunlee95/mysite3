@@ -39,7 +39,17 @@
 	|		|		|		|		|		|		|--- /mappers
 	|		|		|		|		|		|		|		|--- user.xml
 	|		|		|		|		|		|		|		|--- board.xml
+	|		|		|		|		|		|--- /properties
+	|		|		|		|		|		|		|--- jdbc.properties
 	|		|		|		|		|--- /web
+	|		|		|		|		|		|--- MVCConfig
+	|		|		|		|		|		|--- SecurityConfig
+	|		|		|		|		|		|--- MessageConfig
+	|		|		|		|		|		|--- FileUploadConfig
+	|		|		|		|		|		|--- /messages
+	|		|		|		|		|		|		|--- messages_ko.properties
+	|		|		|		|		|		|--- /properties
+	|		|		|		|		|		|		|--- multipart.properties
 	
 	
 	

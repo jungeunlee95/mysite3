@@ -9,7 +9,7 @@
 <body>
 	<h1>OOOOOOOOOOooops - ${uri }</h1>
 
-	<h2>예외 발생!!</h2>
+	<h2>예외 발생!! exception</h2>
 	<pre style="color: blue;">
 		${exception }
 	</pre>
