@@ -23,7 +23,14 @@ public class GuestbookVo {
 	
 	public GuestbookVo() {
 		super();
-		// TODO Auto-generated constructor stub
+	}
+	
+	public GuestbookVo(Long no, String name, String password, String contents, String regDate) {
+		this.no = no;
+		this.name = name;
+		this.password = password;
+		this.contents = contents;
+		this.regDate = regDate;
 	}
 	
 	public Long getNo() {
@@ -60,6 +67,11 @@ public class GuestbookVo {
 	public String toString() {
 		return "Guestbookvo [no=" + no + ", name=" + name + ", password=" + password + ", contents=" + contents
 				+ ", regDate=" + regDate + "]";
+	}
+
+	public Long getNo2() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 	
 	

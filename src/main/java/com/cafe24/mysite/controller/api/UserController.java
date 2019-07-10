@@ -23,10 +23,10 @@ public class UserController {
 	private UserService userService;
 	
 	//@ResponseBody
-	@ApiOperation(value="이메일 존재 여부")
-	@ApiImplicitParams({
-		@ApiImplicitParam(name="email", value="이메일주소", required=true, dataType="string", defaultValue = "aaa")
-	})
+//	@ApiOperation(value="이메일 존재 여부")
+//	@ApiImplicitParams({
+//		@ApiImplicitParam(name="email", value="이메일주소", required=true, dataType="string", defaultValue = "aaa")
+//	})
 	@RequestMapping(value="/checkemail", method=RequestMethod.POST) 
 	public JSONResult checkEmail(
 			@RequestParam(value="email", required=true, defaultValue="") String email) {

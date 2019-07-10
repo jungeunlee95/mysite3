@@ -71,16 +71,6 @@
 			<bean class="com.cafe24.security.AuthInterceptor" />
 		</mvc:interceptor>
 	</mvc:interceptors> 
-	
-	
-	<!-- ViewResolver 설정  -->
-	<bean id="viewResolver"
-		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-		<property name="viewClass"
-			value="org.springframework.web.servlet.view.JstlView" />
-		<property name="prefix" value="/WEB-INF/views/" />
-		<property name="suffix" value=".jsp" />
-	</bean>
 
 	<!-- 빈 설정을 annotation으로 하겠다 (@Controller에 대한 auto scanning하겠다) -->
 	<context:annotation-config />
