@@ -21,4 +21,15 @@ public class GuestbookService2 {
 		return list;
 	}
 
+	public GuestbookVo addContents(GuestbookVo guestbookVo) {
+		guestbookVo.setNo(3L);
+		guestbookVo.setRegDate("2019-07-10 11:11");
+		
+		return guestbookVo;
+	}
+
+	public Long deleteContents(Long no, String password) {
+		return no;
+	}
+
 }

@@ -18,7 +18,7 @@ public class GuestbookService {
 		return guestbookDao.getList();
 	}
 	
-	public boolean addGuestbook(GuestbookVo vo){
+	public boolean writeContent(GuestbookVo vo){
 		return guestbookDao.insert(vo);
 	}
 	
